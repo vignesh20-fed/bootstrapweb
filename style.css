@@ -1,0 +1,252 @@
+:root{
+	--primary-color:#e03a3c;
+	--secondary-color:#111;
+}
+.header{
+	background-color:var(--secondary-color);
+}
+.content{
+	background-color:var(--primary-color);
+	height:50px;
+}
+.navbar{
+	background-color:var(--primary-color);
+	height:50px;
+}
+.button{
+	background-color:var(--primary-color);
+	height:50px;
+}	
+                 /*------------------ banner section -------------*/
+.bannersection{
+	background-color:var(--primary-color);
+	padding:80px 0;
+}
+.bannercontent{
+	background-color:var(--secondary-color);
+	height:400px;
+}
+                /*---------------------- client section -------------*/
+.clientsection{
+	background-color:var(--secondary-color);
+}
+.clientcontent{
+	background-color:var(--primary-color);
+	height:80px;
+}
+           
+		         /*------------------------ about section ----------------*/
+.aboutsection{
+	position:relative;
+}
+.aboutsection:after{
+	content:"";
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	background-color:#000;
+	transform:skewY(-3deg);
+	z-index:-1;
+}
+.aboutcontent{
+	background-color:var(--primary-color);
+	height:380px;
+}
+.aboutitems{
+	background-color:var(--primary-color);
+	height:180px;
+}
+                 /*---------------------- count section ---------------*/
+	
+.countsection{
+	background-color:var(--primary-color);
+	padding:30px 0;
+}	
+.countitems{
+	background-color:var(--secondary-color);
+	height:200px;
+}	
+                 /*---------------------- tab section ---------------*/
+.tabsection{
+	background-color:var(--secondary-color);
+	padding:30px 0;
+}	
+.tabitems{
+	background-color:var(--primary-color);
+	height:100px;
+}
+.tabcontent{
+	background-color:var(--primary-color);
+	height:400px;
+}					 
+                  /*---------------------- tab section ---------------*/
+.servicesection{
+	position:relative;
+	padding:50px 0;
+}		
+.servicesection:after{
+	content:"";
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	background-color:var(--primary-color);
+	transform:skewY(-3deg);
+	z-index:-1;
+}		  
+.servicetitle{
+	background-color:var(--secondary-color);
+	height:100px;
+}
+.serviceitems{
+	background-color:var(--secondary-color);
+	height:200px;
+}	
+
+                      /*---------------------- portfolio section ---------------*/
+.portfoliosection{
+	background-color:var(--secondary-color);
+	padding:50px 0;
+}
+
+.portfoliotitle{
+	background-color:var(--primary-color);
+	height:100px;
+}	
+.portfoliolink{
+	background-color:var(--primary-color);
+	height:50px;
+}
+.portfolioitems{
+	background-color:var(--primary-color);
+	height:200px;
+}						  
+                       /*---------------------- testimonial section ---------------*/
+.testimonialsection{
+	background-color:var(--primary-color);
+	padding:50px 0;
+}
+.testimonialtitle{
+	background-color:var(--secondary-color);
+	height:100px;
+}	
+.testimonialitems{
+	background-color:var(--secondary-color);
+	height:400px;
+}
+                        /*---------------------- pricing section ---------------*/
+.pricingsection{
+	position:relative;
+	padding:50px 0;
+}
+.pricingsection:after{
+	content:"";
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	background-color:var(--secondary-color);
+	transform:skewY(-3deg);
+	z-index:-1;
+}	
+.pricingtitle{
+	background-color:var(--primary-color);
+	height:100px;
+}	
+.pricingitems{
+	background-color:var(--primary-color);
+	height:400px;
+}
+                   /*---------------------- faq section ---------------*/
+.faqsection{
+	background-color:var(--primary-color);
+	height:600px;
+	padding:50px 0;
+}
+.faqtitle{
+	background-color:var(--secondary-color);
+	height:100px;
+}	
+.faqitems{
+	background-color:var(--secondary-color);
+	height:50px;
+}
+   				 /*---------------------- team section ---------------*/  
+.teamsection{
+	position:relative;
+	padding:60px 0;
+}
+.teamsection:after{
+	content:"";
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	background-color:var(--secondary-color);
+	transform:skewY(-3deg);
+	z-index:-1;
+}	
+.teamtitle{
+	background-color:var(--primary-color);
+	height:100px;
+}	
+.teamitems{
+	background-color:var(--primary-color);
+	height:400px;
+}				  
+                    /*---------------------- contact section ---------------*/  
+.contactsection{
+	background-color:var(--primary-color);
+	padding:50px 0;
+}
+.contacttitle{
+	background-color:var(--secondary-color);
+	height:100px;
+}	
+.contactitems{
+	background-color:var(--secondary-color);
+	height:200px;
+}		
+.contactform{
+    background-color:var(--secondary-color);
+	height:100px;
+}
+.contactbutton{
+    background-color:var(--secondary-color);
+	height:50px;
+}				
+                       /*---------------------- footertop section ---------------*/ 
+.footertop{
+	background-color:var(--secondary-color);
+	padding:50px 0;
+}
+.footercontact{
+	background-color:var(--primary-color);
+	height:300px;
+}	
+.footerlink{
+	background-color:var(--primary-color);
+	height:300px;
+}
+.footernewsletter{
+	background-color:var(--primary-color);
+	height:300px;
+}			
+
+                         /*---------------------- footertop section ---------------*/ 	 
+.footerbottom{
+	background-color:var(--secondary-color);
+}
+.credits{
+	background-color:var(--primary-color);
+	height:50px;
+}
+.sociallinks{
+	background-color:var(--primary-color);
+	height:50px;
+}
