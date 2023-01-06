@@ -3,67 +3,126 @@
       <meta charset="utf-8">
 	  <meta name="viewport" content="width=device-width,initial-scale=1.0">
       <title>Bootstrap web</title>
+	     <link rel="stylesheet" href="css/font-awesome.min.css">
+	  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 	  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<section class="header py-3">
-   <div class="container">
-  <div class="row">
-    <div class="col-lg-3 col-md-3 col-5">
-	    <div class="content">
-        </div>
+<section class="header py-1">
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <a class="content navbar-brand fs-2" href="#">Presento<span>.</span></a>
+  
+    <div class="collapse navbar-collapse nav-1 justify-content-end" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Service</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="#">Portfolio</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="#">Team</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="#">Blog</a>
+        </li>
+		 <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown link
+          </a>
+          <ul class="dropdown-menu nav-2" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Drop Down 1</a></li>
+			 <li><a class="dropdown-item" href="#">Drop Down 2</a></li>
+			  <li><a class="dropdown-item" href="#">Drop Down 3</a></li>
+			   <li><a class="dropdown-item" href="#">Drop Down 4</a></li>
+           
+          </ul>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
     </div>
-    <div class="col-lg-7 col-md-7 col-5">
-       <div class="navbar">
-       </div>
-    </div>
-    <div class="col-lg-2 col-md-2 col-2">
-       <div class="button">
-        </div>
-    </div>
+	<div>
+	 <button type="button" class="btn btn-danger ms-4">Get Started</button>
+		     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+            </button>
+		</div>
   </div>
-</div>
+    
+</nav>
+	  
+
 </section>
                        <!------------------ banner section ------------->
 <section class="bannersection">
 <div class="container">
   <div class="row">
     <div class="col-lg-6">
-       <div class="bannercontent">
+       <div class="bannercontent text-light">
+	   <h1>Bettter digital experience with Presento</h1>
+	   <h2 class="my-3">We are team of talented designers making websites with Bootstrap</h2>
+	   <button type="button" class="btn btn-danger px-4">Get Started</button>
 	   </div>
     </div>
   </div>
 </div>
 </section>
                                  <!------------------ client section ------------->
-<section class="clientsection py-3">
+<section class="clientsection ">
 <div class="container">
   <div class="row gy-3">
-    <div class="col-lg-2 col-md-3 col-sm-3 col-6 ">
+  <div class="col-lg-2 col-md-3 col-sm-3 col-6 ">
       <div class="clientcontent">
+	   <img src="image/client-1.png">
 	  </div>
     </div>
     <div class="col-lg-2 col-md-3 col-sm-3 col-6">
       <div class="clientcontent">
+	   <img src="image/client-2.png">
 	  </div>
     </div>
     <div class="col-lg-2 col-md-3 col-sm-3 d-none d-sm-block d-md-block d-lg-block">
       <div class="clientcontent">
+	   <img src="image/client-3.png">
 	  </div>
     </div>
 	 <div class="col-lg-2 col-md-3 col-sm-3 d-none d-sm-block d-md-block d-lg-block">
       <div class="clientcontent">
+	   <img src="image/client-4.png">
 	  </div>
     </div>
     <div class="col-lg-2 col-md-2 d-none d-lg-block">
       <div class="clientcontent">
+	   <img src="image/client-5.png">
 	  </div>
     </div>
     <div class="col-lg-2 col-md-2 d-none d-lg-block">
       <div class="clientcontent">
+	   <img src="image/client-6.png">
 	  </div>
     </div>
+	<div class="circle">
+    <span></span>
+	<span></span>
+	<span class="active"></span>
+	<span></span>
+	<span></span>
+	<span></span>
+  </div>
   </div>
 </div>
 </section>
@@ -71,30 +130,44 @@
 <section class="aboutsection mt-5">
 <div class="container">
   <div class="row">
-    <div class="col-lg-5 my-5">
+    <div class="col-lg-5  text-light">
 	  <div class="aboutcontent">
-	  
+	  <h3>Voluptatem dignissimos provident quasi</h3>
+	  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit</p>
+	   <button type="button" class="btn btn-danger rounded px-4">ABOUT US ></button>
       </div>
     </div>
-	<div class="col-lg-7 my-5">
+	<div class="col-lg-7 my-4">
 	<div class="row gy-3">
     <div class="col-lg-6 col-md-6 col-sm-12 ">
       <div class="aboutitems">
+	   <i class="fa fa-file-text" aria-hidden="true"></i>
+	   <h4 class="text-light">Corporis voluptates sit</h4>
+	   <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
 	  
 	  </div>
     </div>
 	 <div class="col-lg-6 col-md-6 col-sm-12 ">
       <div class="aboutitems">
+	   <i class="fa fa-cube" aria-hidden="true"></i>
+	   <h4 class="text-light">Corporis voluptates sit</h4>
+	   <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
 	  
 	  </div>
     </div>
 	 <div class="col-lg-6  col-md-6 col-sm-12 ">
       <div class="aboutitems">
+	   <i class="fa fa-picture-o" aria-hidden="true"></i>
+	   <h4 class="text-light">Corporis voluptates sit</h4>
+	   <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
 	  
 	  </div>
     </div>
      <div class="col-lg-6 col-md-6 col-sm-12 ">
       <div class="aboutitems">
+	   <i class="fa fa-shield" aria-hidden="true"></i>
+	   <h4 class="text-light">Corporis voluptates sit</h4>
+	   <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
 	  
 	  </div>
     </div>   
@@ -108,23 +181,32 @@
 <div class="container ">
   <div class="row gy-3">
     <div class="col-lg-3 col-md-6">
-	   <div class="countitems">
+	   <div class="countitems text-center">
+	   <i class="fa fa-smile-o" aria-hidden="true"></i>
+	   <span>232</span>
+	   <p>Happy Clients</p>
 	     
 	   </div>
     </div>
     <div class="col-lg-3 col-md-6">
-       <div class="countitems">
-	     
+       <div class="countitems text-center">
+	     <i class="fa fa-phone" aria-hidden="true"></i>
+	   <span>521</span>
+	   <p>Projects</p>
 	   </div>
     </div>
     <div class="col-lg-3 col-md-6">
-      <div class="countitems">
-	     
+      <div class="countitems text-center">
+	    <i class="fa fa-microphone" aria-hidden="true"></i>
+	   <span>1463</span>
+	   <p>Hours Of Support</p>
 	   </div>
     </div>
 	 <div class="col-lg-3 col-md-6">
-      <div class="countitems">
-	     
+      <div class="countitems text-center">
+	    <i class="fa fa-users" aria-hidden="true"></i>
+	   <span>15</span>
+	   <p>Hard Work</p>
 	   </div>
     </div>
   </div>
@@ -133,24 +215,32 @@
                                  <!------------------ tab section ------------->
 <section class="tabsection">
 <div class="container">
-  <div class="row gy-3">
+  <!--- <div class="row gy-3">
     <div class="col-lg-3 col-md-3 col-sm-3 col-3">
-      <div class="tabitems">
+      <div class="tabitems d-flex justify-content-between  border border-dark px-3 py-3">
+	   <i class="fa fa-users pt-3 pe-3" aria-hidden="true"></i>
+	   <h4 class="d-none d-lg-block">Modi sit est dela pireda nest</h4>
 	     
 	   </div>
     </div>
     <div class="col-lg-3 col-md-3 col-sm-3 col-3">
-      <div class="tabitems">
+      <div class="tabitems d-flex justify-content-between  border border-dark px-3 py-3">
+	   <i class="fa fa-users pt-3 pe-3" aria-hidden="true"></i>
+	   <h4>Unde praesenti mara setra le</h4>
 	     
 	   </div>
     </div>
     <div class="col-lg-3 col-md-3 col-sm-3 col-3">
-      <div class="tabitems">
+      <div class="tabitems d-flex justify-content-between  border border-dark px-3 py-3">
+	   <i class="fa fa-sun-o pt-3 pe-3" aria-hidden="true"></i>
+	   <h4>Pariatur explica nitro dela</h4>
 	     
 	   </div>
     </div>
 	 <div class="col-lg-3 col-md-3 col-sm-3 col-3">
-      <div class="tabitems">
+     <div class="tabitems d-flex justify-content-between  border border-dark px-3 py-3">
+	   <i class="fa fa-house-o pt-3 pe-3" aria-hidden="true"></i>
+	   <h4>Nostrum qui dile node</h4>
 	     
 	   </div>
     </div>
@@ -168,7 +258,57 @@
 	</div>
   </div>
   </div>
-</div>
+</div>  -->
+<p>
+  <a class="btn" data-bs-toggle="collapse1" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
+  <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Toggle second element</button>
+  <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both elements</button>
+</p>
+<div class="row">
+  <div class="col-12">
+    <div class="collapse multi-collapse row" id="multiCollapseExample1">
+      <div class="card card-body col-6">
+        <div class="col-6">Some placeholder content for the first collapse component 
+		of this multi-collapse example. This panel is hidden by default but revealed w
+		hen the user activates the relevant trigger.</div>
+		 <div class="col-6">Some placeholder content for the first collapse component 
+		of this multi-collapse example. This panel is hidden by default but revealed w
+		hen the user activates the relevant trigger.</div>
+      </div>
+	   <div class="card card-body col-6">
+        <div class="col-6">Some placeholder content for the first collapse component 
+		of this multi-collapse example. This panel is hidden by default but revealed w
+		hen the user activates the relevant trigger.</div>
+		 <div class="col-6">Some placeholder content for the first collapse component 
+		of this multi-collapse example. This panel is hidden by default but revealed w
+		hen the user activates the relevant trigger.</div>
+      </div>
+	  
+    </div>
+  </div>
+  
+    <div class="col-12">
+    <div class="collapse multi-collapse row" id="multiCollapseExample2">
+      <div class="card card-body col-6">
+        <div class="col-6">Some placeholder content for the first collapse component 
+		of this multi-collapse example. This panel is hidden by default but revealed w
+		hen the user activates the relevant trigger.</div>
+		 <div class="col-6">Some placeholder content for the first collapse component 
+		of this multi-collapse example. This panel is hidden by default but revealed w
+		hen the user activates the relevant trigger.</div>
+      </div>
+	   <div class="card card-body col-6">
+        <div class="col-6">Some placeholder content for the first collapse component 
+		of this multi-collapse example. This panel is hidden by default but revealed w
+		hen the user activates the relevant trigger.</div>
+		 <div class="col-6">Some placeholder content for the first collapse component 
+		of this multi-collapse example. This panel is hidden by default but revealed w
+		hen the user activates the relevant trigger.</div>
+      </div>
+	  
+    </div>
+  </div>
+ 
 </section>
                                    <!------------------ service section ------------->
 <section class="servicesection mt-5">
@@ -278,11 +418,12 @@
 <section class="testimonialsection">
 <div class="container">
    <div class="col-lg-12">
-   <div class="testimonialtitle">
-   
+   <div class="commontitle">
+       <h2>TESTIMONIAL</h2>
+	   <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
    </div>
    </div>
-  <div class="row">
+  <!--<div class="row">
     <div class="col-lg-4 col-md-12">
           <div class="testimonialitems mt-3">
 	     
@@ -298,46 +439,253 @@
 	     
 	      </div>
     </div>
+  </div>-->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+   <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 3"></button>
+ </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+	 <div class="row">
+	<div class="col-12 col-lg-4">
+	<div class="testimonial">
+      <img src="image/testimonials-1.jpg" class="d-block w-20" style="width:90px;" alt=> 
+	 <h3>Saul Goodman</h3>
+	  <h4>Ceo & Founder</h4>
+	  <p>  <i class="fa fa-quote-left" aria-hidden="true"></i> Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.  <i class="fa fa-quote-right" aria-hidden="true"></i> </p>
+    </div>
+	</div>
+	<div class="col-12 col-lg-4 d-none d-lg-block">
+	<div class="testimonial">
+      <img src="image/testimonials-2.jpg" class="d-block w-20" style="width:90px;" alt=>
+	  <h3>Sara Wisson</h3>
+	  <h4>Designer</h4>
+	  <p>  <i class="fa fa-quote-left" aria-hidden="true"></i> Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.  <i class="fa fa-quote-right" aria-hidden="true"></i> </p>
+    </div>
+	</div>
+		<div class="col-12 col-lg-4 d-none d-lg-block">
+	<div class="testimonial">
+      <img src="image/testimonials-3.jpg" class="d-block w-20" style="width:90px;" alt=>
+	  <h3>Jena Karls</h3>
+	  <h4>Store Owner</h4>
+	  <p>  <i class="fa fa-quote-left" aria-hidden="true"></i> Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.  <i class="fa fa-quote-right" aria-hidden="true"></i> </p>
+    </div>
+	
+	</div>
+    </div>
+	</div>
+    <div class="carousel-item">
+	<div class="row">
+      <div class="col-12 col-lg-4">
+	<div class="testimonial">
+      <img src="image/testimonials-2.jpg" class="d-block w-20" style="width:90px;" alt=>
+	  <h3>Sara Wisson</h3>
+	  <h4>Designer</h4>
+	  <p>  <i class="fa fa-quote-left" aria-hidden="true"></i> Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.  <i class="fa fa-quote-right" aria-hidden="true"></i> </p>
+    </div>
+    </div>
+	  <div class="col-12 col-lg-4 d-none d-lg-block">
+	<div class="testimonial">
+      <img src="image/testimonials-3.jpg" class="d-block w-20" style="width:90px;" alt=>
+	 <h3>Jena Karls</h3>
+	  <h4>Store Owner</h4>
+	  <p>  <i class="fa fa-quote-left" aria-hidden="true"></i> Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.  <i class="fa fa-quote-right" aria-hidden="true"></i> </p>
+    </div>
+    </div>
+	  <div class="col-12 col-lg-4 d-none d-lg-block">
+	<div class="testimonial">
+      <img src="image/testimonials-4.jpg" class="d-block w-20" style="width:90px;" alt=>
+	  <h3>Matt Brandon</h3>
+	  <h4>Freelancer</h4>
+	  <p>  <i class="fa fa-quote-left" aria-hidden="true"></i> Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.  <i class="fa fa-quote-right" aria-hidden="true"></i> </p>
+    </div>
+    </div>
+    </div>
   </div>
+   <div class="carousel-item">
+      <div class="row">
+	        <div class="col-12 col-lg-4">
+	<div class="testimonial">
+      <img src="image/testimonials-3.jpg" class="d-block w-20" style="width:90px;" alt=>
+	  <h3>Jena Karls</h3>
+	  <h4>Store Owner</h4>
+	  <p>  <i class="fa fa-quote-left" aria-hidden="true"></i> Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.  <i class="fa fa-quote-right" aria-hidden="true"></i> </p>
+    </div>
+    </div>
+	  <div class="col-12 col-lg-4 d-none d-lg-block">
+	<div class="testimonial">
+      <img src="image/testimonials-4.jpg" class="d-block w-20" style="width:90px;" alt=>
+	   <h3>Matt Brandon</h3>
+	  <h4>Freelancer</h4>
+	  <p>  <i class="fa fa-quote-left" aria-hidden="true"></i> Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.  <i class="fa fa-quote-right" aria-hidden="true"></i> </p>
+    </div>
+    </div>
+	  <div class="col-12 col-lg-4 d-none d-lg-block">
+	<div class="testimonial">
+      <img src="image/testimonials-5.jpg" class="d-block w-20" style="width:90px;" alt=>
+	  <h3>John Larson</h3>
+	  <h4>Enterpreneur</h4>
+	  <p>  <i class="fa fa-quote-left" aria-hidden="true"></i> Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.  <i class="fa fa-quote-right" aria-hidden="true"></i> </p>
+    </div>
+    </div>
+	 </div>
+    </div>
+	 <div class="carousel-item">
+            <div class="row">
+	        <div class="col-12 col-lg-4">
+	<div class="testimonial">
+      <img src="image/testimonials-4.jpg" class="d-block w-20" style="width:90px;" alt=>
+	    <h3>Matt Brandon</h3>
+	  <h4>Freelancer</h4>
+	  <p>  <i class="fa fa-quote-left" aria-hidden="true"></i> Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.  <i class="fa fa-quote-right" aria-hidden="true"></i> </p>
+    </div>
+    </div>
+	  <div class="col-12 col-lg-4 d-none d-lg-block">
+	<div class="testimonial">
+      <img src="image/testimonials-5.jpg" class="d-block w-20" style="width:90px;" alt=>
+	  <h3>John Larson</h3>
+	  <h4>Enterpreneur</h4>
+	  <p>  <i class="fa fa-quote-left" aria-hidden="true"></i> Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.  <i class="fa fa-quote-right" aria-hidden="true"></i> </p>
+    </div>
+    </div>
+	  <div class="col-12 col-lg-4 d-none d-lg-block">
+	<div class="testimonial">
+      <img src="image/testimonials-1.jpg" class="d-block w-20" style="width:90px;" alt=>
+	  <h3>Saul Goodman</h3>
+	  <h4>Ceo & Founder</h4>
+	  <p>  <i class="fa fa-quote-left" aria-hidden="true"></i> Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.  <i class="fa fa-quote-right" aria-hidden="true"></i> </p>
+    </div>
+    </div>
+	 </div>
+    </div>
+	  <div class="carousel-item">
+                 <div class="row">
+	        <div class="col-12 col-lg-4">
+	<div class="testimonial">
+      <img src="image/testimonials-5.jpg" class="d-block w-20" style="width:90px;" alt=>
+	   <h3>John Larson</h3>
+	  <h4>Enterpreneur</h4>
+	  <p>  <i class="fa fa-quote-left" aria-hidden="true"></i> Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.  <i class="fa fa-quote-right" aria-hidden="true"></i> </p>
+    </div>
+    </div>
+	  <div class="col-12 col-lg-4 d-none d-lg-block">
+	<div class="testimonial">
+      <img src="image/testimonials-1.jpg" class="d-block w-20" style="width:90px;" alt=>
+	   <h3>Saul Goodman</h3>
+	  <h4>Ceo & Founder</h4>
+	  <p>  <i class="fa fa-quote-left" aria-hidden="true"></i> Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.  <i class="fa fa-quote-right" aria-hidden="true"></i> </p>
+    </div>
+    </div>
+	  <div class="col-12 col-lg-4 d-none d-lg-block">
+	<div class="testimonial">
+      <img src="image/testimonials-2.jpg" class="d-block w-20" style="width:90px;" alt=>
+	<h3>Sara Wisson</h3>
+	  <h4>Designer</h4>
+	  <p><i class="fa fa-quote-left" aria-hidden="true"></i> Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.  <i class="fa fa-quote-right" aria-hidden="true"></i> </p>
+    </div>
+    </div>
+	 </div>
+    </div>
+
+</div>
 </div>
 </section>
                                 <!------------------ pricing section ------------->
 <section class="pricingsection mt-5">
 <div class="container">
   <div class="col-lg-12">
-   <div class="pricingtitle">
-   
+   <div class="commontitle text-white">
+       <h2 class="text-white">PRICING</h2>
+	   <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
    </div>
    </div>
   <div class="row">
     <div class="col-lg-4 col-md-6">
 	 <div class="pricingitems mt-3">
+	   
+  <h4>FREE</h4>
+  <h3><sup>$</sup>0<span>/Month</span></h3>
+  <p>Aida dere
+   <br>
+  Nec feugiat nisl
+    <br>
+  Nulla at volutpat dol
+  <br>
+ <del>Pharetra massa</del>
+ <br>
+  <del>Massa ultricies mi</del>
+  </p>
+  
+  <div class="buybutton">
+   <button type="button" class="btn btn-dark ms-4">Buy Now</button>
+  </div>
+  
+  
 	     
 	  </div>
     </div>
     <div class="col-lg-4 col-md-6">
-	    <div class="pricingitems mt-3">
+	    <div class="pricingitems active1 mt-3">
+		  <h4>BUSINESS</h4>
+  <h3><sup>$</sup>19<span>/Month</span></h3>
+  <p>Aida dere
+   <br>
+ Nec feugiat nisl
+    <br>
+  Nulla at volutpat dol
+  <br>
+ Pharetra massa
+ <br>
+  <del>Massa ultricies mi</del>
+  </p>
+  
+  <div class="buybutton ">
+    <button type="button" class="btn btn-danger ms-4">Buy Now</button>
+  </div>
 	     
+	  </div>
 	  </div>
       
-    </div>
+   
     <div class="col-lg-4 col-md-6">
 	     <div class="pricingitems mt-3">
+		   
+  <h4>DEVELOPER</h4>
+  <h3><sup>$</sup>29<span>/Month</span></h3>
+  <p>Aida dere
+   <br>
+ Nec feugiat nisl
+    <br>
+  Nulla at volutpat dol
+  <br>
+ Pharetra massa
+ <br>
+  Massa ultricies mi
+  </p>
+  
+  <div class="buybutton">
+     <button type="button" class="btn btn-dark ms-4">Buy Now</button>
+  </div>
+ 
 	     
 	  </div>
-    </div>
   </div>
 </div>
+
 </section>
                                  <!------------------ faq section ------------->
 <section class="faqsection mt-5">
 <div class="container">
    <div class="col-lg-12">
-	     <div class="faqtitle">
-	     
+	     <div class="commontitle">
+	     <h2>FREQUENTLY ASKED QUESTION</h2>
 	  </div>
     </div>
-  <div class="row">
+ <!--- <div class="row">
     <div class="col-lg-12">
 	     <div class="faqitems mt-3">
 	     
@@ -369,37 +717,169 @@
 	     
 	       </div>
     </div>
+  </div> -->
+  <div class="accordion py-5 " id="accordionFlushExample">
+  <div class="accordion-item faq-tab mb-2">
+    <h2 class="accordion-header" id="flush-headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        Non consectetur a erat nam at lectus urna duis? 
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">
+	   Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+	   </div>
   </div>
+  </div>
+  <div class="accordion-item faq-tab mb-2">
+    <h2 class="accordion-header" id="flush-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque? 
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">
+	   Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+	  </div>
+    </div>
+  </div>
+  <div class="accordion-item faq-tab mb-2">
+    <h2 class="accordion-header" id="flush-headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+       Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi? 
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">
+	   Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+    </div>
+  </div>
+</div> 
+ <div class="accordion-item faq-tab mb-2">
+    <h2 class="accordion-header" id="flush-headingFour">
+      <button class="accordion-button collapsed faq" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+       Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla? 
+      </button>
+    </h2>
+    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">
+	   Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+	    </div>
+  </div>
+</div>  
+<div class="accordion-item faq-tab mb-2">
+    <h2 class="accordion-header" id="flush-headingFive">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+      Tempus quam pellentesque nec nam aliquam sem et tortor consequat? 
+      </button>
+    </h2>
+    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">
+	   Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
+	   </div>
+  </div>
+</div> 
+ <div class="accordion-item faq-tab mb-2">
+    <h2 class="accordion-header" id="flush-headingSix">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+       Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? 
+      </button>
+    </h2>
+    <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">
+	   Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
+  </div>
+</div>
 </div>
 </section>
                                  <!------------------ team section ------------->
 <section class="teamsection mt-5">
 <div class="container">
    <div class="col-lg-12">
-	       <div class="teamtitle">
-	     
+	       <div class="commontitle">
+	     <h2 class="text-light">TEAM</h2>
+		 <p class="text-light">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</P>
 	       </div>
     </div>
   <div class="row">
     <div class="col-lg-3 col-md-6">
-	       <div class="teamitems mt-3">
-	     
-	       </div>
+	 <div class="card" style="width:100%;">
+
+  <img src="image/team-1.jpg" class="card-img-top" alt="...">
+  <div class="instag ">
+	  <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+	  <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+	  <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+	  <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+	</div>
+  <div class="card-body">
+    <h4 class="card-title">Walter White</h4>
+	
+	<span>Chief Executive Officer</span>
+   
+  </div>
+</div>
     </div>
     <div class="col-lg-3 col-md-6">
-            <div class="teamitems mt-3">
+            <div class="card" style="width:100%;">
+
+  <img src="image/team-2.jpg" class="card-img-top" alt="...">
+  <div class="instag ">
+	  <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+	  <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+	  <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+	  <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+	</div>
+  <div class="card-body">
+    <h4 class="card-title">Sarah Jhonson</h4>
+	
+	<span>Product Manager</span>
+   
+  </div> 
+			
 	     
-	       </div>
+	</div>       
     </div>
     <div class="col-lg-3 col-md-6">
-             <div class="teamitems mt-3">
+	            <div class="card" style="width:100%;">
+
+  <img src="image/team-3.jpg" class="card-img-top" alt="...">
+  <div class="instag ">
+	  <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+	  <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+	  <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+	  <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+	</div>
+  <div class="card-body">
+    <h4 class="card-title">William Anderson</h4>
+	
+	<span>CTO</span>
+   
+  </div> 
+			
 	     
-	       </div>
+	</div>
+            
     </div>
 	 <div class="col-lg-3 col-md-6">
-             <div class="teamitems mt-3">
+                         <div class="card" style="width:100%;">
+
+  <img src="image/team-4.jpg" class="card-img-top" alt="...">
+  <div class="instag ">
+	  <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+	  <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+	  <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+	  <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+	</div>
+  <div class="card-body">
+    <h4 class="card-title">Amanda Jepson</h4>
+	
+	<span>Accountant</span>
+   
+  </div> 
+			
 	     
-	       </div>
+	</div>
     </div>
   </div>	
 </div>
@@ -408,25 +888,36 @@
 <section class="contactsection mt-5">
 <div class="container">
  <div class="col-lg-12">
-          <div class="contacttitle">
-	     
+          <div class="commontitle">
+	      <h2>CONTACT</h2>
+               <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</P>
 	       </div>
     </div>
 <div class="row">
 <div class="col-lg-6 ">
   <div class="row">
          <div class="col-lg-12 col-md-12">
-           <div class="contactitems mt-3">
+           <div class="contactitems mt-3 text-center">
+	        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    <h5>Our Address</h5>
+                 <p>A108 Adam Street,New York,NY 535022</P>
+	       </div>
+		 </div> 
+		  <div class="col-lg-6 col-md-6">
+           <div class="contactitems mt-3  text-center">
+		    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                       <h5>Email Us</h5>
+                             <p>info@example.com<br>
+                                contact@example.com</P>
 	     
 	       </div>
 		 </div> 
 		  <div class="col-lg-6 col-md-6">
-           <div class="contactitems mt-3">
-	     
-	       </div>
-		 </div> 
-		  <div class="col-lg-6 col-md-6">
-           <div class="contactitems mt-3">
+           <div class="contactitems mt-3 text-center">
+		   <i class="fa fa-phone" aria-hidden="true"></i>
+                       <h5>Call Us</h5>
+                        <p>+1 5589 55488 55<br>
+                             +1 6678 254445 41</P>
 	     
 	       </div>
 		 </div>
@@ -436,27 +927,39 @@
        <div class="row">
          <div class="col-lg-6 col-md-6">
            <div class="contactform mt-3">
+		   <div class="mb-3">
+
+  <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Your Name">
+</div>
 	     
 	       </div>
 		 </div> 
 		  <div class="col-lg-6 col-md-6">
            <div class="contactform mt-3">
+		   <div class="mb-3">
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Email">
+</div>
 	     
 	       </div>
 		 </div> 
 		 <div class="col-lg-12">
            <div class="contactform mt-3">
-	     
+		   <div class="mb-4">
+   <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Subject">
+	    
 	       </div>
 		 </div> 
 		   <div class="col-lg-12">
            <div class="contactform mt-3">
-	     
+	     <div class="mb-3">
+  
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="8" placeholder="Message"></textarea>
+</div>
 	       </div>
 		 </div>
          <div class="col-lg-12">
-           <div class="contactbutton mt-3">
-	     
+           <div class="contactbutton mt-3 text-center">
+	     <button type="button" class="btn btn-danger px-4">Send Message</button>
 	       </div>
 		 </div> 		 
     </div>
@@ -470,24 +973,62 @@
   <div class="container">
   <div class="row gy-3">
     <div class="col-lg-3 col-md-6">
-           <div class="footercontact">
-	     
+           <div class="footercontact text-light fs-6">
+		     <h3>Presento</h3>
+			 
+	 <p> A108 Adam Street
+	  <br>
+	  New York, NY 535022
+	  <br>
+	  United States
+	  <br>
+	  <br>
+	  <strong>phone:</strong>
+	  +1 5589 55488 55
+	  <br>
+	   <strong>Email:</strong>
+	   info@example.com
+	   <br>
+	  </p>     
 	       </div>
     </div>
     <div class="col-lg-2 col-md-6">
-           <div class="footerlink">
+           <div class="footerlink text-light">
+	  <h3 class="fs-5">Useful Links</h3>
+	  <ul class="funticon ps-1 text-light">
+	  <li><i class="fa fa-chevron-right text-light" aria-hidden="true"></i><a href="#">Home</a></li>
+	  <li><i class="fa fa-chevron-right text-light" aria-hidden="true"></i><a href="#">About Us</a></li>
+	  <li><i class="fa fa-chevron-right text-light" aria-hidden="true"></i><a href="#">Services</a></li>
+	  <li><i class="fa fa-chevron-right text-light" aria-hidden="true"></i><a href="#">Terms an Services</li>
+	  <li><i class="fa fa-chevron-right text-light" aria-hidden="true"></i><a href="#">Privacy policy</a></li>
+	  </ul>
+	  </div>
+	  </div>
 	     
-	       </div>
-    </div>
+	
+    
     <div class="col-lg-3 col-md-6">
-	        <div class="footerlink">
+	        <div class="footerlink text-light">
+			<h3 class="fs-5">Our Services</h3>
+	  <ul class="funticon ps-1">
+	  <li><i class="fa fa-chevron-right text-light" aria-hidden="true"></i><a href="#">Web Design</a></li>
+	  <li><i class="fa fa-chevron-right text-light" aria-hidden="true"></i><a href="#">Web development</a></li>
+	  <li><i class="fa fa-chevron-right text-light" aria-hidden="true"></i><a href="#">Product manager</a></li>
+	  <li><i class="fa fa-chevron-right text-light" aria-hidden="true"></i><a href="#">Marketing</li>
+	  <li><i class="fa fa-chevron-right text-light" aria-hidden="true"></i><a href="#">Graphic design</a></li>
+	  </ul>
 	     
 	       </div>
       
     </div>
 	<div class="col-lg-4 col-md-6">
-          <div class="footernewsletter">
-	     
+          <div class="footernewsletter text-light">
+	      <h3>Join Our Newsletter</h3>
+	  <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+	  <form class="form">   
+	   <input type="email" name="email">
+	   <button type="submit">Subscribe</button>
+	  </form>
 	       </div>
     </div>
   </div>
@@ -498,16 +1039,23 @@
   <div class="row justify-content-between gy-3">
 	<div class="col-lg-4 col-md-4">
           <div class="credits">
-	     
+	     <p class="authorlink text-light">Designed by <a href="#">S.VIGNESH</a>
 	       </div>
     </div>
-		<div class="col-lg-4 col-md-4">
+		<div class="col-lg-3 col-md-4">
           <div class="sociallinks">
-	     
+	     <span class="authoricon">
+	<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+	<a href="#">  <i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+	<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+	<a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a>
+	<a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+	</span>
 	       </div>
     </div>
  </div>	
  </div>
 </div>
 </footer>
+<script src="js/bootstrap.bundle.min.js"></script>
 </body>
