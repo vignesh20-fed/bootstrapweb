@@ -30,17 +30,22 @@
 }				
 	
 .header{
-	
+position:sticky;
+top:0;
+left:0;
+right:0;
+bottom:0;
 }
-.content {
-	font-weight:600;
+.content{
+	font-weight:700;
+
 }
 .content span{
 	color:var(--primary-color);
 }
 .nav-item {
    font-size:16px;
-   font-weight:600;
+   font-weight:700;
 }
 #navbarNavDropdown .active{
 	color:var(--primary-color);
@@ -88,6 +93,9 @@
 .clientcontent img:hover{
 	filter:grayscale(0%);
 	opacity:1;
+}
+.clientcontent{
+	padding:10px 38px;
 }
 .circle{
 	text-align:center;
@@ -280,27 +288,101 @@
 .serviceitems .ser-link a{
 	text-decoration:none;
 	color:#fff;
-	
+}
+ .ser-link h4:hover a{
+	text-decoration:underline;
+	color:#fff;
 }	
 
                       /*---------------------- portfolio section ---------------*/
 .portfoliosection{
-	background-color:var(--secondary-color);
 	padding:50px 0;
 }
-
-.portfoliotitle{
-	background-color:var(--primary-color);
-	height:100px;
-}	
-.portfoliolink{
-	background-color:var(--primary-color);
-	height:50px;
+.contents {
+       display:flex;
+	   justify-content:center;
+	   padding-bottom:30px;
 }
-.portfolioitems{
+.contents .pricingbut{
+	text-decoration:none;
+	color:#000;
+	padding:8px 15px;
+	text-transform:uppercase;
+	font-size:15px;
+	border-radius:5px;
+	margin-left:10px;
+}
+.contents .pricingbut:hover{
 	background-color:var(--primary-color);
-	height:200px;
-}						  
+	color:#fff;
+}
+.contents .pricingbut.active{
+	background-color:var(--primary-color);
+	color:#fff;
+}
+
+
+	
+.portfolioitems{
+	position:relative;
+	overflow:hidden;
+	margin-bottom:30px;
+	transition:0.3s;
+}
+.portfolioitems img{
+	transition:0.3s;
+}
+.portfolioitems:hover img {
+  transform: scale(1.2);
+}
+
+.portfolioitems .portfoliocontent{
+ position:absolute;
+ bottom:20px;
+ left:0;
+ width:100%;
+ padding:150px 0px 40px 20px;
+  background: rgba(17, 17, 17, 0.6);
+ transform:translateY(20px);
+ opacity:0;
+ visibility:hidden;
+ transition:all 0.5s ease;
+}
+
+.portfolioitems:hover .portfoliocontent{
+ opacity:1;
+ visibility:visible;
+}
+.portfolioicons a{
+	text-decoration:none;
+	
+}
+.portfolioicons i{
+	font-size:20px;	
+	color:rgba(255, 255, 255, 0.7);
+	margin-left:10px;
+}
+.portfolioicons i:hover{
+	color:white;
+}
+.portfolioheading{
+	font-family: 'Raleway', sans-serif;
+}
+.portfolioheading h3{
+	font-weight:600;
+	color:#000;
+	font-size:18px;
+	color:#fff;
+}
+.portfolioheading h6{
+	font-weight:300;
+	color:rgba(255, 255, 255, 0.7);
+	font-size:18px;
+	font-style: italic;
+}
+
+
+				  
                        /*---------------------- testimonial section ---------------*/
 .testimonialsection{
 
