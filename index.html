@@ -9,6 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
@@ -69,9 +70,10 @@
 </section>
                        <!------------------ banner section ------------->
 <section class="bannersection">
+
 <div class="container">
   <div class="row">
-    <div class="col-lg-6">
+    <div class="col-lg-6" data-aos="zoom-out-right" data-aos-duration="1500">
        <div class="bannercontent text-light">
 	   <h1>Bettter digital experience with Presento</h1>
 	   <h2 class="my-3">We are team of talented designers making websites with Bootstrap</h2>
@@ -80,9 +82,11 @@
     </div>
   </div>
 </div>
+
 </section>
                                  <!------------------ client section ------------->
 <section class="clientsection ">
+<div data-aos="zoom-in" data-aos-duration="1500">
 <div class="container">
   <div class="row gy-3">
   <div class="col-lg-2 col-md-3 col-sm-3 col-6 ">
@@ -125,50 +129,60 @@
   </div>
   </div>
 </div>
+</div>
 </section>
                                     <!------------------ about section ------------->
 <section class="aboutsection mt-5">
 <div class="container">
   <div class="row">
     <div class="col-lg-5  text-light">
-	  <div class="aboutcontent">
+	  <div class="aboutcontent" data-aos="fade-up" data-aos-duration="1000">
 	  <h3>Voluptatem dignissimos provident quasi</h3>
 	  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit</p>
-	   <button type="button" class="btn btn-danger rounded px-4">ABOUT US ></button>
+	   <button type="button" class="btn btn-danger rounded-pill border-2 px-4" style="background:black;">ABOUT US ></button>
       </div>
     </div>
+	
+	
 	<div class="col-lg-7 my-4">
 	<div class="row gy-5">
     <div class="col-lg-6 col-md-6 col-sm-12 ">
-      <div class="aboutitems">
+	
+      <div class="aboutitems" data-aos="fade-up" data-aos-duration="2000">
 	   <i class="fa fa-file-text" aria-hidden="true"></i>
 	   <h4 class="text-light">Corporis voluptates sit</h4>
 	   <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
-	  
 	  </div>
-    </div>
+	  </div>
+   
 	 <div class="col-lg-6 col-md-6 col-sm-12 ">
+
       <div class="aboutitems">
+	  	 <div data-aos="fade-up"
+     data-aos-duration="2000">
 	   <i class="fa fa-cube" aria-hidden="true"></i>
 	   <h4 class="text-light">Corporis voluptates sit</h4>
 	   <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
-	  
+	   </div>
 	  </div>
     </div>
 	 <div class="col-lg-6  col-md-6 col-sm-12 ">
       <div class="aboutitems">
+	  	 <div data-aos="fade-up"
+     data-aos-duration="2500">
 	   <i class="fa fa-picture-o" aria-hidden="true"></i>
 	   <h4 class="text-light">Corporis voluptates sit</h4>
 	   <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
-	  
+	   </div>
 	  </div>
     </div>
      <div class="col-lg-6 col-md-6 col-sm-12 ">
       <div class="aboutitems">
+	  	 <div data-aos="fade-up" data-aos-duration="2500">
 	   <i class="fa fa-shield" aria-hidden="true"></i>
 	   <h4 class="text-light">Corporis voluptates sit</h4>
 	   <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
-	  
+	     </div>
 	  </div>
     </div>   
   </div>
@@ -178,7 +192,7 @@
 </section>
                                      <!------------------ count section ------------->
 <section class="countsection mt-5">
-<div class="container">
+<div class="container" data-aos="fade-up" data-aos-duration="1000">
   <div class="row gy-5">
     <div class="col-lg-3 col-md-6">
 	   <div class="countitems text-center">
@@ -259,35 +273,32 @@
   </div>
   </div>
 </div>  -->
-<ul class="nav nav-tabs abt-tab" id="myTab" role="tablist">
+<ul class="nav nav-tabs abt-tab" id="myTab" role="tablist" data-aos="fade-up" data-aos-duration="1000">
   <li class="nav-item" role="presentation">
-    <a class="nav-link active" id="task1-tab" data-bs-toggle="tab" href="#task1" type="button" role="tab" aria-controls="home" aria-selected="true">
+    <a class="nav-link active" id="task1-tab" data-bs-toggle="tab" href="#task1" role="tab" aria-controls="task1" aria-selected="false">
 <i class="fa fa-eercast" aria-hidden="true"></i>
 <span class="d-none d-lg-block">Modi sit est dela pireda nest</span></a>
   </li>
   <li class="nav-item" role="presentation">
-    <a class="nav-link" id="task2-tab" data-bs-toggle="tab" href="#task2" type="button" role="tab" aria-controls="profile" aria-selected="false">
+    <a class="nav-link" id="task2-tab" data-bs-toggle="tab" href="#task2" role="tab" aria-controls="task2" aria-selected="false">
 	<i class="fa fa-life-ring" aria-hidden="true"></i>
 <span class="d-none d-lg-block">Unde praesenti mara setra le</span></a>
   </li>
   <li class="nav-item" role="presentation">
-    <a class="nav-link" id="task4-tab" data-bs-toggle="tab" href="#task3" type="button" role="tab" aria-controls="contact" aria-selected="false">
+    <a class="nav-link" id="task4-tab" data-bs-toggle="tab" href="#task3" role="tab" aria-controls="task3" aria-selected="false">
 	<i class="fa fa-sun-o" aria-hidden="true"></i>
 <span class="d-none d-lg-block">Pariatur explica nitro dela</span></a>
   </li>
    <li class="nav-item" role="presentation">
-    <a class="nav-link" id="task4-tab" data-bs-toggle="tab" href="#task4" type="button" role="tab" aria-controls="contact" aria-selected="false">
+    <a class="nav-link" id="task4-tab" data-bs-toggle="tab" href="#task4" role="tab" aria-controls="task4" aria-selected="false">
 	<i class="fa fa-home" aria-hidden="true"></i>
 <span class="d-none d-lg-block">Nostrum qui dile node</span></a>
   </li>
 </ul>
-<div class="tab-content" id="myTabContent">
-  <div class="tab-pane fade show active" id="task-1" role="tabpanel" aria-labelledby="home-tab">
+<div class="tab-content" id="myTabContent" data-aos="fade-up" data-aos-duration="1500">
+  <div class="tab-pane fade show active" id="task1" role="tabpanel" aria-labelledby="task1-tab">
  <div class="row">
-  <div class="d-none col-md-12 col-md-block">
- <img src="image/tabs-1.jpg" class="img-fluid">
- </div>
- <div class="col-12 col-lg-6">
+ <div class="col-12 col-lg-6 order-2 order-lg-1">
 <h3> Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
 <p class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 <ul class="none">
@@ -297,14 +308,14 @@
 </ul>
 <p class="fst-italic">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
  </div>
- <div class="col-lg-block col-12 col-lg-6">
+ <div class="col-lg-block col-12 col-lg-6 order-1 order-lg-2">
  <img src="image/tabs-1.jpg" class="img-fluid">
  </div>
  </div> 
  </div>
-  <div class="tab-pane fade" id="task2" role="tabpanel" aria-labelledby="profile-tab">
+  <div class="tab-pane fade" id="task2" role="tabpanel" aria-labelledby="task2-tab">
   <div class="row">
- <div class="col-6">
+ <div class="col-12 col-lg-6 order-2 order-lg-1">
 <h3> Neque exercitationem debitis soluta quos debitis quo mollitia officia est</h3>
 <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 <p class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -315,14 +326,14 @@
 <li><i class="fa fa-check" aria-hidden="true"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
 </ul>
  </div>
- <div class="col-6">
+ <div class="col-12 col-lg-6 order-1 order-lg-2">
  <img src="image/tabs-2.jpg" class="img-fluid">
  </div>
  </div> 
   </div>
-  <div class="tab-pane fade" id="task3" role="tabpanel" aria-labelledby="contact-tab">
+  <div class="tab-pane fade" id="task3" role="tabpanel" aria-labelledby="task4-tab">
     <div class="row">
- <div class="col-6">
+ <div class="col-12 col-lg-6 order-2 order-lg-1">
  <h3>Voluptatibus commodi ut accusamus ea repudiandae ut autem dolor ut assumenda</h3>
  <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 <ul class="none">
@@ -332,14 +343,14 @@
 </ul>
 <p class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
  </div>
- <div class="col-6">
+ <div class="col-12 col-lg-6 order-1 order-lg-2">
  <img src="image/tabs-3.jpg" class="img-fluid">
  </div>
  </div> 
   </div>
-   <div class="tab-pane fade" id="task4" role="tabpanel" aria-labelledby="contact-tab">
+   <div class="tab-pane fade" id="task4" role="tabpanel" aria-labelledby="task4-tab">
     <div class="row">
- <div class="col-6">
+ <div class="col-12 col-lg-6 order-2 order-lg-1">
 <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</h3>
 <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 <p class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -349,7 +360,7 @@
 <li><i class="fa fa-check" aria-hidden="true"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
 </ul>
  </div>
- <div class="col-6">
+ <div class="col-12 col-lg-6 order-1 order-lg-2">
  <img src="image/tabs-4.jpg" class="img-fluid">
  </div>
  </div> 
@@ -359,14 +370,14 @@
                                    <!------------------ service section ------------->
 <section class="servicesection mt-5">
 <div class="container">
-	   <div class="col-lg-12">
+	   <div class="col-lg-12" data-aos="fade-up" data-aos-duration="1000">
             <div class="commontitle">
 			<h2 class="text-light">SERVICES</h2>
 			<p class="text-light">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
 	      </div>
 	  </div>
   <div class="row">
-    <div class="col-lg-6 col-md-6 mt-4">
+    <div class="col-lg-6 col-md-6 mt-4" data-aos="fade-up" data-aos-duration="1300">
          <div class="serviceitems d-flex">
 		 <div class="ser-icon">
 		 <i class="fa fa-briefcase" aria-hidden="true"></i>
@@ -377,7 +388,7 @@
 	     </div>
 	      </div>
     </div>
-    <div class="col-lg-6 col-md-6 mt-4">
+    <div class="col-lg-6 col-md-6 mt-4" data-aos="fade-up" data-aos-duration="1500">
                     <div class="serviceitems d-flex">
 		 <div class="ser-icon">
 		 <i class="fa fa-credit-card" aria-hidden="true"></i>
@@ -388,7 +399,7 @@
 	     </div>
 	      </div>
     </div>
-    <div class="col-lg-6 col-md-6 mt-4">
+    <div class="col-lg-6 col-md-6 mt-4" data-aos="fade-up" data-aos-duration="1300">
                     <div class="serviceitems d-flex">
 		 <div class="ser-icon">
 		 <i class="fa fa-signal" aria-hidden="true"></i>
@@ -399,7 +410,7 @@
 	     </div>
 	      </div>
     </div>
-	  <div class="col-lg-6 col-md-6 mt-4">
+	  <div class="col-lg-6 col-md-6 mt-4" data-aos="fade-up" data-aos-duration="1500">
                    <div class="serviceitems d-flex">
 		 <div class="ser-icon">
 		 <i class="fa fa-binoculars" aria-hidden="true"></i>
@@ -410,7 +421,7 @@
 	     </div>
 	      </div>
     </div>
-    <div class="col-lg-6 col-md-6 mt-4">
+    <div class="col-lg-6 col-md-6 mt-4" data-aos="fade-up" data-aos-duration="1300">
                     <div class="serviceitems d-flex">
 		 <div class="ser-icon">
 		 <i class="fa fa-sun-o" aria-hidden="true"></i>
@@ -421,7 +432,7 @@
 	     </div>
 	      </div>
     </div>
-    <div class="col-lg-6 col-md-6 mt-4">
+    <div class="col-lg-6 col-md-6 mt-4" data-aos="fade-up" data-aos-duration="1500">
                     <div class="serviceitems d-flex">
 		 <div class="ser-icon">
 		 <i class="fa fa-calendar" aria-hidden="true"></i>
@@ -439,13 +450,13 @@
 <section class="portfoliosection mt-5">
   <div class="container">
        <div class="col-lg-12">
-          <div class="commontitle">
+          <div class="commontitle" data-aos="fade-up" data-aos-duration="1000">
 	     <h2>PORTFOLIO</h2>
 		 <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
 	      </div>
 	
 	  </div>
-	   <div class="col-lg-12 mt-3">
+	   <div class="col-lg-12 mt-3" data-aos="fade-up" data-aos-duration="1300">
          	  <div class="contents">
   <a href="#" class="pricingbut active">ALL</a>
   <a href="link/app/index.html"  class="pricingbut">APP</a>
@@ -454,7 +465,7 @@
       </div>   
      </div>
 	 
-  <div class="row">
+  <div class="row" data-aos="fade-up" data-aos-duration="1000">
     <div class="col-lg-4 col-md-6">
           <div class="portfolioitems mt-3">
    <img src="image/portfolio-1.jpg" style="width:100%;" alt="no-image">
@@ -600,7 +611,7 @@
                                     <!------------------ testimonial section ------------->
 <section class="testimonialsection">
 <div class="container">
-   <div class="col-lg-12">
+   <div class="col-lg-12" data-aos="fade-up" data-aos-duration="1000">
    <div class="commontitle">
        <h2>TESTIMONIAL</h2>
 	   <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
@@ -623,7 +634,7 @@
 	      </div>
     </div>
   </div>-->
-  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-aos="fade-up" data-aos-duration="1000">
    <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -780,14 +791,14 @@
                                 <!------------------ pricing section ------------->
 <section class="pricingsection mt-5">
 <div class="container">
-  <div class="col-lg-12">
+  <div class="col-lg-12" data-aos="fade-up" data-aos-duration="1000">
    <div class="commontitle text-white">
        <h2 class="text-white">PRICING</h2>
 	   <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
    </div>
    </div>
   <div class="row">
-    <div class="col-lg-4 col-md-6">
+    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1300">
 	 <div class="pricingitems mt-3">
 	   
   <h4>FREE</h4>
@@ -808,7 +819,7 @@
   </div>     
 	  </div>
     </div>
-    <div class="col-lg-4 col-md-6">
+    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1500">
 	    <div class="pricingitems active1 mt-3">
 		  <h4>BUSINESS</h4>
   <h3><sup>$</sup>19<span>/Month</span></h3>
@@ -831,7 +842,7 @@
 	  </div>
       
    
-    <div class="col-lg-4 col-md-6">
+    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1600">
 	     <div class="pricingitems mt-3">
 		   
   <h4>DEVELOPER</h4>
@@ -860,7 +871,7 @@
                                  <!------------------ faq section ------------->
 <section class="faqsection mt-5">
 <div class="container">
-   <div class="col-lg-12">
+   <div class="col-lg-12" data-aos="fade-up" data-aos-duration="1000">
 	     <div class="commontitle">
 	     <h2>FREQUENTLY ASKED QUESTION</h2>
 	  </div>
@@ -898,7 +909,7 @@
 	       </div>
     </div>
   </div> -->
-  <div class="accordion py-5 " id="accordionFlushExample">
+  <div class="accordion py-5 " id="accordionFlushExample" data-aos="fade-up" data-aos-duration="1000">
   <div class="accordion-item faq-tab mb-2">
     <h2 class="accordion-header" id="flush-headingOne">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
@@ -976,14 +987,14 @@
 <section class="teamsection mt-5">
 <div class="container">
    <div class="col-lg-12">
-	       <div class="commontitle">
+	       <div class="commontitle" data-aos="fade-up" data-aos-duration="1000">
 	     <h2 class="text-light">TEAM</h2>
 		 <p class="text-light">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</P>
 	       </div>
     </div>
   <div class="row gy-4">
     <div class="col-lg-3 col-md-6">
-	 <div class="card" style="width:100%;">
+	 <div class="card" style="width:100%;" data-aos="fade-up" data-aos-duration="1000">
 
   <img src="image/team-1.jpg" class="card-img-top" alt="...">
   <div class="instag ">
@@ -1001,7 +1012,7 @@
 </div>
     </div>
     <div class="col-lg-3 col-md-6">
-            <div class="card" style="width:100%;">
+            <div class="card" style="width:100%;" data-aos="fade-up" data-aos-duration="1300">
 
   <img src="image/team-2.jpg" class="card-img-top" alt="...">
   <div class="instag ">
@@ -1021,7 +1032,7 @@
 	</div>       
     </div>
     <div class="col-lg-3 col-md-6">
-	            <div class="card" style="width:100%;">
+	            <div class="card" style="width:100%;" data-aos="fade-up" data-aos-duration="1500">
 
   <img src="image/team-3.jpg" class="card-img-top" alt="...">
   <div class="instag ">
@@ -1042,7 +1053,7 @@
             
     </div>
 	 <div class="col-lg-3 col-md-6">
-                         <div class="card" style="width:100%;">
+                         <div class="card" style="width:100%;" data-aos="fade-up" data-aos-duration="1600">
 
   <img src="image/team-4.jpg" class="card-img-top" alt="...">
   <div class="instag ">
@@ -1067,15 +1078,15 @@
                                  <!------------------ contact section ------------->
 <section class="contactsection mt-5">
 <div class="container">
- <div class="col-lg-12">
+ <div class="col-lg-12"  data-aos="fade-up" data-aos-duration="1000">
           <div class="commontitle">
 	      <h2>CONTACT</h2>
                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</P>
 	       </div>
     </div>
 <div class="row">
-<div class="col-lg-6 ">
-  <div class="row">
+<div class="col-lg-6">
+  <div class="row"  data-aos="fade-up" data-aos-duration="1300">
          <div class="col-lg-12 col-md-12">
            <div class="contactitems mt-3 text-center">
 	        <i class="fa fa-map-marker" aria-hidden="true"></i>
@@ -1101,10 +1112,10 @@
 		 </div>
     </div>
     </div>
-	  	  <div class="col-lg-6">
+	  	  <div class="col-lg-6 cont-from" data-aos="fade-up" data-aos-duration="1500">
        <div class="row">
          <div class="col-lg-6 col-md-6">
-           <div class="contactform mt-3">
+           <div class="contactform mt-3 ">
 		   <div class="mb-3">
 
   <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Your Name">
@@ -1151,7 +1162,7 @@
   <div class="row gy-3">
     <div class="col-lg-3 col-md-6">
            <div class="footercontact text-light fs-6">
-		     <h3>Presento</h3>
+		     <h3>Presento<span>.</span></h3>
 			 
 	 <p> A108 Adam Street
 	  <br>
@@ -1234,5 +1245,10 @@
  </div>
 </div>
 </footer>
+
 <script src="js/bootstrap.bundle.min.js"></script>
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+  AOS.init();
+ </script>
 </body>

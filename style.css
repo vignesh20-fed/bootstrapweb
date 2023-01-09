@@ -30,11 +30,10 @@
 }				
 	
 .header{
-position:sticky;
-top:0;
-left:0;
-right:0;
-bottom:0;
+position:fixed;
+z-index:3;
+color:#fff;
+width:100%;
 }
 .content{
 	font-weight:700;
@@ -159,8 +158,8 @@ bottom:0;
 	font-size: 15px;
     color: #848484;
 	margin-bottom: 10px;
-
 }
+.aboutcontent .btn:
 
                  /*---------------------- count section ---------------*/
 	
@@ -501,6 +500,22 @@ bottom:0;
 	border-right:none;
 	border-top:none;
 }
+.accordion-button:focus {
+  
+    border-color:none;
+    outline: 0;
+    box-shadow:none;
+}
+
+
+.accordion-button:not(.collapsed) {
+    color:black;
+    background-color:#fff;
+}
+.accordion-item:hover .accordion-button{
+	background-color:#fff;
+	color:var(--primary-color);
+}
 
 
 
@@ -557,11 +572,6 @@ bottom:0;
 .instag a:hover{
 	background-color:black;	
 }
-
-
-
-
-
              /*---------------------- contact section ---------------*/  
 .contactsection{
 	padding:40px 0;
@@ -590,7 +600,12 @@ bottom:0;
 	color:#222;
 	font-size:20px;
 	margin-bottom:10px;
-}		
+}	
+.cont-from{
+	padding:0px 20px;
+	box-shadow:0 0 30px #ccc;
+	background-color:#fff;
+}	
 				
                        /*---------------------- footertop section ---------------*/ 
 .footertop{
@@ -605,10 +620,13 @@ bottom:0;
 	
 }	
 .footercontact h3{
-	font-weight:500;
+	font-weight:600;
 }
 .footercontact strong{
      font-weight:800;
+}
+.footercontact span{
+	color:var(--primary-color);
 }
 
 .footerlink{
@@ -638,11 +656,12 @@ bottom:0;
 	color:#656262;
 }
 .footerlink .funticon  a:hover{
-	color:var(--primary-color);
+	color:#fff;
+	transition:0.5s;
 }
 .footerlink .funticon  i{
 	color:var(--primary-color);
-	
+	margin-right:4px;
 }
 .footernewsletter{
 	padding:20px 0;
