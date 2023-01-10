@@ -1,0 +1,22 @@
+
+@media (max-width:576px){
+ .bannercontent h1{
+	font-size:28px; 
+ }
+ .bannercontent h2{
+	 font-size:18px;
+ }
+  
+}
+@media (max-width:768px){
+ .bannercontent h1{
+	font-size:28px; 
+ }
+ .bannercontent h2{
+	 font-size:18px;
+ }
+  .abt-tab .nav-item1 .nav-link i{
+	 margin-left:12px;
+ }
+}
+

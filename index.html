@@ -1,25 +1,33 @@
-<!DOCTYPE html>
+<!doctype html>
 <head>
       <meta charset="utf-8">
 	  <meta name="viewport" content="width=device-width,initial-scale=1.0">
       <title>Bootstrap web</title>
-	     <link rel="stylesheet" href="css/font-awesome.min.css">
+	  <link rel="stylesheet" href="css/font-awesome.min.css">
 	  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-	  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	  <link rel="stylesheet" type="text/css" href="style.css">
+	  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+		
+		  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	   <link rel="stylesheet" href="style.css">
+	   <link rel="stylesheet" type="text/css" href="responsive.css">
+       
 </head>
 <body>
 <section class="header py-0">
    <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container">
     <a class="content navbar-brand fs-2" href="#">Presento<span>.</span></a>
-  
-    <div class="collapse navbar-collapse nav-1 justify-content-end" id="navbarNavDropdown">
+  <div class="order-lg-2">
+	 <button type="button" class="btn navbtn btn-danger ms-4">Get Started</button>
+		     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+            </button>
+		</div>
+    <div class="collapse navbar-collapse nav-1 justify-content-end order-lg-1" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -56,12 +64,7 @@
         </li>
       </ul>
     </div>
-	<div>
-	 <button type="button" class="btn btn-danger ms-4">Get Started</button>
-		     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-            </button>
-		</div>
+	
   </div>
     
 </nav>
@@ -74,10 +77,10 @@
 <div class="container">
   <div class="row">
     <div class="col-lg-6" data-aos="zoom-out-right" data-aos-duration="1500">
-       <div class="bannercontent text-light">
+       <div class="bannercontent text-light text-center text-lg-start">
 	   <h1>Bettter digital experience with Presento</h1>
 	   <h2 class="my-3">We are team of talented designers making websites with Bootstrap</h2>
-	   <button type="button" class="btn btn-danger px-4">Get Started</button>
+	   <button type="button" class="btn btn-danger px-4 btn-lg">Get Started</button>
 	   </div>
     </div>
   </div>
@@ -88,7 +91,7 @@
 <section class="clientsection ">
 <div data-aos="zoom-in" data-aos-duration="1500">
 <div class="container">
-  <div class="row gy-3">
+ <!-- <div class="row gy-3">
   <div class="col-lg-2 col-md-3 col-sm-3 col-6 ">
       <div class="clientcontent">
 	   <img src="image/client-1.png">
@@ -128,18 +131,314 @@
 	<span></span>
   </div>
   </div>
+</div> -->
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button> 
+
+ </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+     <div class="row">
+	   <div class="col-lg-2 col-6">
+	    <div class="clientcontent ">
+	   <img src="image/client-1.png">
+	  </div>
+	   </div>
+	     <div class="col-lg-2 col-6">
+	      <div class="clientcontent">
+	   <img src="image/client-2.png">
+	  </div>
+	   </div>
+	     <div class="col-lg-2 d-none d-lg-block">
+	      <div class="clientcontent">
+	   <img src="image/client-3.png">
+	  </div>
+	   </div>
+	     <div class="col-lg-2 d-none d-lg-block">
+	      <div class="clientcontent">
+	   <img src="image/client-4.png">
+	  </div>
+	   </div>
+	     <div class="col-lg-2 d-none d-lg-block">
+	   <div class="clientcontent">
+	   <img src="image/client-5.png">
+	  </div>
+	   </div>
+	     <div class="col-lg-2 d-none d-lg-block">
+	       <div class="clientcontent">
+	   <img src="image/client-6.png">
+	  </div>
+	   </div>
+	 
+	 
+	 </div>
+    </div>
+    <div class="carousel-item">
+      <div class="row">
+	   <div class="col-lg-2 col-6">
+	    <div class="clientcontent">
+	   <img src="image/client-2.png">
+	  </div>
+	   </div>
+	     <div class="col-lg-2 col-6">
+	      <div class="clientcontent">
+	   <img src="image/client-3.png">
+	  </div>
+	   </div>
+	     <div class="col-lg-2 d-none d-lg-block">
+	      <div class="clientcontent">
+	   <img src="image/client-4.png">
+	  </div>
+	   </div>
+	     <div class="col-lg-2 d-none d-lg-block">
+	      <div class="clientcontent">
+	   <img src="image/client-5.png">
+	  </div>
+	   </div>
+	     <div class="col-lg-2 d-none d-lg-block">
+	   <div class="clientcontent">
+	   <img src="image/client-6.png">
+	  </div>
+	   </div>
+	     <div class="col-lg-2 d-none d-lg-block">
+	       <div class="clientcontent">
+	   <img src="image/client-7.png">
+	  </div>
+	   </div>
+	 
+	 
+	 </div>
+    </div>
+    <div class="carousel-item">
+      <div class="row">
+	   <div class="col-lg-2 col-6">
+	    <div class="clientcontent">
+	   <img src="image/client-3.png">
+	  </div>
+	   </div>
+	     <div class="col-lg-2 col-6">
+	      <div class="clientcontent">
+	   <img src="image/client-4.png">
+	  </div>
+	   </div>
+	     <div class="col-lg-2 d-none d-lg-block">
+	      <div class="clientcontent">
+	   <img src="image/client-5.png">
+	  </div>
+	   </div>
+	     <div class="col-lg-2 d-none d-lg-block">
+	      <div class="clientcontent">
+	   <img src="image/client-6.png">
+	  </div>
+	   </div>
+	     <div class="col-lg-2 d-none d-lg-block">
+	   <div class="clientcontent">
+	   <img src="image/client-7.png">
+	  </div>
+	   </div>
+	     <div class="col-lg-2 d-none d-lg-block">
+	       <div class="clientcontent">
+	   <img src="image/client-8.png">
+	  </div>
+	   </div>
+	 
+	 
+	 </div>
+    </div>
+	
+	<div class="carousel-item">
+	<div class="row">
+	   <div class="col-lg-2 col-6">
+	    <div class="clientcontent">
+	   <img src="image/client-4.png">
+	  </div>
+	   </div>
+	     <div class="col-lg-2 col-6">
+	      <div class="clientcontent">
+	   <img src="image/client-5.png">
+	  </div>
+	   </div>
+	     <div class="col-lg-2 d-none d-lg-block">
+	      <div class="clientcontent">
+	   <img src="image/client-6.png">
+	  </div>
+	   </div>
+	     <div class="col-lg-2 d-none d-lg-block">
+	      <div class="clientcontent">
+	   <img src="image/client-7.png">
+	  </div>
+	   </div>
+	     <div class="col-lg-2 d-none d-lg-block">
+	   <div class="clientcontent">
+	   <img src="image/client-8.png">
+	  </div>
+	   </div>
+	     <div class="col-lg-2 d-none d-lg-block">
+	       <div class="clientcontent">
+	   <img src="image/client-1.png">
+	  </div>
+	   </div>
+	   </div>
+	</div>
+	<div class="carousel-item">
+	<div class="row">
+	   <div class="col-lg-2 col-6">
+	    <div class="clientcontent">
+	   <img src="image/client-5.png">
+	  </div>
+	   </div>
+	     <div class="col-lg-2 col-6">
+	      <div class="clientcontent">
+	   <img src="image/client-6.png">
+	  </div>
+	   </div>
+	     <div class="col-lg-2 d-none d-lg-block">
+	      <div class="clientcontent">
+	   <img src="image/client-7.png">
+	  </div>
+	   </div>
+	     <div class="col-lg-2 d-none d-lg-block">
+	      <div class="clientcontent">
+	   <img src="image/client-8.png">
+	  </div>
+	   </div>
+	     <div class="col-lg-2 d-none d-lg-block">
+	   <div class="clientcontent">
+	   <img src="image/client-1.png">
+	  </div>
+	   </div>
+	     <div class="col-lg-2 d-none d-lg-block">
+	       <div class="clientcontent">
+	   <img src="image/client-2.png">
+	  </div>
+	   </div>
+	</div>
+	</div>
+	<div class="carousel-item">
+	<div class="row">
+	   <div class="col-lg-2 col-6">
+	    <div class="clientcontent">
+	   <img src="image/client-6.png">
+	  </div>
+	   </div>
+	     <div class="col-lg-2 col-6">
+	      <div class="clientcontent">
+	   <img src="image/client-7.png">
+	  </div>
+	   </div>
+	     <div class="col-lg-2 d-none d-lg-block">
+	      <div class="clientcontent">
+	   <img src="image/client-8.png">
+	  </div>
+	   </div>
+	     <div class="col-lg-2 d-none d-lg-block">
+	      <div class="clientcontent">
+	   <img src="image/client-1.png">
+	  </div>
+	   </div>
+	     <div class="col-lg-2 d-none d-lg-block">
+	   <div class="clientcontent">
+	   <img src="image/client-2.png">
+	  </div>
+	   </div>
+	     <div class="col-lg-2 d-none d-lg-block">
+	       <div class="clientcontent">
+	   <img src="image/client-3.png">
+	  </div>
+	   </div>
+	</div>
+	</div>
+	<div class="carousel-item">
+	<div class="row">
+	   <div class="col-lg-2 col-6">
+	    <div class="clientcontent">
+	   <img src="image/client-7.png">
+	  </div>
+	   </div>
+	     <div class="col-lg-2 col-6">
+	      <div class="clientcontent">
+	   <img src="image/client-8.png">
+	  </div>
+	   </div>
+	     <div class="col-lg-2 d-none d-lg-block">
+	      <div class="clientcontent">
+	   <img src="image/client-1.png">
+	  </div>
+	   </div>
+	     <div class="col-lg-2 d-none d-lg-block">
+	      <div class="clientcontent">
+	   <img src="image/client-2.png">
+	  </div>
+	   </div>
+	     <div class="col-lg-2 d-none d-lg-block">
+	   <div class="clientcontent">
+	   <img src="image/client-3.png">
+	  </div>
+	   </div>
+	     <div class="col-lg-2 d-none d-lg-block">
+	       <div class="clientcontent">
+	   <img src="image/client-4.png">
+	  </div>
+	   </div>
+	</div>
+	</div>
+	<div class="carousel-item">
+	<div class="row">
+	   <div class="col-lg-2 col-6">
+	    <div class="clientcontent">
+	   <img src="image/client-8.png">
+	  </div>
+	   </div>
+	     <div class="col-lg-2 col-6">
+	      <div class="clientcontent">
+	   <img src="image/client-1.png">
+	  </div>
+	   </div>
+	     <div class="col-lg-2 d-none d-lg-block">
+	      <div class="clientcontent">
+	   <img src="image/client-2.png">
+	  </div>
+	   </div>
+	     <div class="col-lg-2 d-none d-lg-block">
+	      <div class="clientcontent">
+	   <img src="image/client-3.png">
+	  </div>
+	   </div>
+	     <div class="col-lg-2 d-none d-lg-block">
+	   <div class="clientcontent">
+	   <img src="image/client-4.png">
+	  </div>
+	   </div>
+	     <div class="col-lg-2 d-none d-lg-block">
+	       <div class="clientcontent">
+	   <img src="image/client-5.png">
+	  </div>
+	   </div>
+	</div>
+  </div>
+  </div>
+  </div>
+
 </div>
 </div>
 </section>
                                     <!------------------ about section ------------->
 <section class="aboutsection mt-5">
-<div class="container">
+<div class="container text-center text-lg-start">
   <div class="row">
     <div class="col-lg-5  text-light">
 	  <div class="aboutcontent" data-aos="fade-up" data-aos-duration="1000">
 	  <h3>Voluptatem dignissimos provident quasi</h3>
 	  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit</p>
-	   <button type="button" class="btn btn-danger rounded-pill border-2 px-4" style="background:black;">ABOUT US ></button>
+	   <button type="button" class="btn aboutbtn text-light rounded-pill px-4">ABOUT US ></button>
       </div>
     </div>
 	
@@ -193,7 +492,7 @@
                                      <!------------------ count section ------------->
 <section class="countsection mt-5">
 <div class="container" data-aos="fade-up" data-aos-duration="1000">
-  <div class="row gy-5">
+ <div class="row gy-5">
     <div class="col-lg-3 col-md-6">
 	   <div class="countitems text-center">
 	   <i class="fa fa-smile-o" aria-hidden="true"></i>
@@ -223,7 +522,8 @@
 	   <p>Hard Work</p>
 	   </div>
     </div>
-  </div>
+  </div> 
+  
 </div>
 </section>
                                  <!------------------ tab section ------------->
@@ -274,25 +574,25 @@
   </div>
 </div>  -->
 <ul class="nav nav-tabs abt-tab" id="myTab" role="tablist" data-aos="fade-up" data-aos-duration="1000">
-  <li class="nav-item" role="presentation">
-    <a class="nav-link active" id="task1-tab" data-bs-toggle="tab" href="#task1" role="tab" aria-controls="task1" aria-selected="false">
+  <li class="nav-item1 col-3" role="presentation">
+    <a class="nav-link  justify-content-center justify-lg-none active" id="task1-tab" data-bs-toggle="tab" href="#task1" role="tab" aria-controls="task1" aria-selected="false">
 <i class="fa fa-eercast" aria-hidden="true"></i>
 <span class="d-none d-lg-block">Modi sit est dela pireda nest</span></a>
   </li>
-  <li class="nav-item" role="presentation">
-    <a class="nav-link" id="task2-tab" data-bs-toggle="tab" href="#task2" role="tab" aria-controls="task2" aria-selected="false">
+  <li class="nav-item1 col-3" role="presentation">
+    <a class="nav-link justify-content-center justify-lg-none px-2" id="task2-tab" data-bs-toggle="tab" href="#task2" role="tab" aria-controls="task2" aria-selected="false">
 	<i class="fa fa-life-ring" aria-hidden="true"></i>
 <span class="d-none d-lg-block">Unde praesenti mara setra le</span></a>
   </li>
-  <li class="nav-item" role="presentation">
-    <a class="nav-link" id="task4-tab" data-bs-toggle="tab" href="#task3" role="tab" aria-controls="task3" aria-selected="false">
+  <li class="nav-item1 col-3" role="presentation">
+    <a class="nav-link justify-content-center justify-lg-none px-2 " id="task4-tab" data-bs-toggle="tab" href="#task3" role="tab" aria-controls="task3" aria-selected="false">
 	<i class="fa fa-sun-o" aria-hidden="true"></i>
 <span class="d-none d-lg-block">Pariatur explica nitro dela</span></a>
   </li>
-   <li class="nav-item" role="presentation">
-    <a class="nav-link" id="task4-tab" data-bs-toggle="tab" href="#task4" role="tab" aria-controls="task4" aria-selected="false">
+   <li class="nav-item1 col-3" role="presentation">
+    <a class="nav-link justify-content-center justify-lg-none" id="task4-tab" data-bs-toggle="tab" href="#task4" role="tab" aria-controls="task4" aria-selected="false">
 	<i class="fa fa-home" aria-hidden="true"></i>
-<span class="d-none d-lg-block">Nostrum qui dile node</span></a>
+<span class="d-none d-lg-block">Nostrum qui dile node as</span></a>
   </li>
 </ul>
 <div class="tab-content" id="myTabContent" data-aos="fade-up" data-aos-duration="1500">
@@ -301,7 +601,7 @@
  <div class="col-12 col-lg-6 order-2 order-lg-1">
 <h3> Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
 <p class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-<ul class="none">
+<ul class="ps-0 none">
 <li><i class="fa fa-check" aria-hidden="true"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
 <li><i class="fa fa-check" aria-hidden="true"></i>Duis aute irure dolor in reprehenderit in voluptate velit.</li>
 <li><i class="fa fa-check" aria-hidden="true"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
@@ -319,7 +619,7 @@
 <h3> Neque exercitationem debitis soluta quos debitis quo mollitia officia est</h3>
 <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 <p class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-<ul class="none">
+<ul class="ps-0 none">
 <li><i class="fa fa-check" aria-hidden="true"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
 <li><i class="fa fa-check" aria-hidden="true"></i>Duis aute irure dolor in reprehenderit in voluptate velit.</li>
 <li><i class="fa fa-check" aria-hidden="true"></i>Provident mollitia neque rerum asperiores dolores quos qui a. Ipsum neque dolor voluptate nisi sed.</li>
@@ -336,7 +636,7 @@
  <div class="col-12 col-lg-6 order-2 order-lg-1">
  <h3>Voluptatibus commodi ut accusamus ea repudiandae ut autem dolor ut assumenda</h3>
  <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-<ul class="none">
+<ul class="ps-0 none">
 <li><i class="fa fa-check" aria-hidden="true"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
 <li><i class="fa fa-check" aria-hidden="true"></i>Duis aute irure dolor in reprehenderit in voluptate velit.</li>
 <li><i class="fa fa-check" aria-hidden="true"></i>Provident mollitia neque rerum asperiores dolores quos qui a. Ipsum neque dolor voluptate nisi sed.</li>
@@ -354,7 +654,7 @@
 <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</h3>
 <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 <p class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-<ul class="none">
+<ul class="ps-0 none">
 <li><i class="fa fa-check" aria-hidden="true"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
 <li><i class="fa fa-check" aria-hidden="true"></i>Duis aute irure dolor in reprehenderit in voluptate velit.</li>
 <li><i class="fa fa-check" aria-hidden="true"></i>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
@@ -466,7 +766,7 @@
      </div>
 	 
   <div class="row" data-aos="fade-up" data-aos-duration="1000">
-    <div class="col-lg-4 col-md-6">
+    <div class="col-lg-4 col-md-6 mt-3">
           <div class="portfolioitems mt-3">
    <img src="image/portfolio-1.jpg" style="width:100%;" alt="no-image">
   <div class="portfoliocontent">
@@ -639,8 +939,8 @@
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 3"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
  </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -815,7 +1115,7 @@
   </p>
   
   <div class="buybutton">
-   <button type="button" class="btn btn-dark ms-4">Buy Now</button>
+   <button type="button" class="btn btn-dark">Buy Now</button>
   </div>     
 	  </div>
     </div>
@@ -835,7 +1135,7 @@
   </p>
   
   <div class="buybutton ">
-    <button type="button" class="btn btn-danger ms-4">Buy Now</button>
+    <button type="button" class="btn btn-danger">Buy Now</button>
   </div>
 	     
 	  </div>
@@ -859,7 +1159,7 @@
   </p>
   
   <div class="buybutton">
-     <button type="button" class="btn btn-dark ms-4">Buy Now</button>
+     <button type="button" class="btn btn-dark">Buy Now</button>
   </div>
  
 	     
@@ -1088,7 +1388,7 @@
 <div class="col-lg-6">
   <div class="row"  data-aos="fade-up" data-aos-duration="1300">
          <div class="col-lg-12 col-md-12">
-           <div class="contactitems mt-3 text-center">
+           <div class="contactitems text-center">
 	        <i class="fa fa-map-marker" aria-hidden="true"></i>
                     <h5>Our Address</h5>
                  <p>A108 Adam Street,New York,NY 535022</P>
@@ -1113,7 +1413,7 @@
     </div>
     </div>
 	  	  <div class="col-lg-6 cont-from" data-aos="fade-up" data-aos-duration="1500">
-       <div class="row">
+       <div class="row contectform">
          <div class="col-lg-6 col-md-6">
            <div class="contactform mt-3 ">
 		   <div class="mb-3">
@@ -1146,7 +1446,7 @@
 	       </div>
 		 </div>
          <div class="col-lg-12">
-           <div class="contactbutton mt-3 text-center">
+           <div class="contactbutton my-3 text-center">
 	     <button type="button" class="btn btn-danger px-4">Send Message</button>
 	       </div>
 		 </div> 		 
@@ -1183,7 +1483,7 @@
     <div class="col-lg-2 col-md-6">
            <div class="footerlink text-light">
 	  <h3 class="fs-5">Useful Links</h3>
-	  <ul class="funticon ps-1 text-light">
+	  <ul class="funticon ps-0 text-light">
 	  <li><i class="fa fa-chevron-right text-light" aria-hidden="true"></i><a href="#">Home</a></li>
 	  <li><i class="fa fa-chevron-right text-light" aria-hidden="true"></i><a href="#">About Us</a></li>
 	  <li><i class="fa fa-chevron-right text-light" aria-hidden="true"></i><a href="#">Services</a></li>
@@ -1198,7 +1498,7 @@
     <div class="col-lg-3 col-md-6">
 	        <div class="footerlink text-light">
 			<h3 class="fs-5">Our Services</h3>
-	  <ul class="funticon ps-1">
+	  <ul class="funticon ps-0">
 	  <li><i class="fa fa-chevron-right text-light" aria-hidden="true"></i><a href="#">Web Design</a></li>
 	  <li><i class="fa fa-chevron-right text-light" aria-hidden="true"></i><a href="#">Web development</a></li>
 	  <li><i class="fa fa-chevron-right text-light" aria-hidden="true"></i><a href="#">Product manager</a></li>
@@ -1224,21 +1524,21 @@
 </div>
 <div class="footerbottom">
 <div class="container">
-  <div class="row justify-content-between gy-3 text-center">
+  <div class="row justify-content-between gy-3 text-center text-lg-start">
 	<div class="col-lg-4 col-md-4">
           <div class="credits">
 	     <p class="authorlink text-light">Designed by <a href="#">S.VIGNESH</a>
 	       </div>
     </div>
 		<div class="col-lg-3 col-md-5">
-          <div class="sociallinks">
-	     <span class="authoricon">
+          <div class="authoricon">
+	      
 	<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
 	<a href="#">  <i class="fa fa-facebook-square" aria-hidden="true"></i></a>
 	<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
 	<a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a>
 	<a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-	</span>
+
 	       </div>
     </div>
  </div>	
