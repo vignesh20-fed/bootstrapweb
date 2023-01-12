@@ -733,7 +733,7 @@ width:100%;
                          /*---------------------- footertop section ---------------*/ 	 
 .footerbottom{
 	background-color:var(--secondary-color);
-	padding-bottom:20px;
+	padding-bottom:30px;
 }
 .credits .authorlink a{
 	text-decoration:none;
@@ -759,4 +759,21 @@ width:100%;
 }
  .authoricon a:hover{
 	background-color:var(--primary-color);	
+}
+
+.footerright{
+	color:#fff;
+}
+.footerright a{
+	font-size: 16px;
+    background:var(--primary-color);
+    color: #fff;
+	padding: 13px 15px;
+	margin-right:1px;
+	transition: 0.3s;
+	font-family: "Open Sans", sans-serif;
+	border-radius:5px;
+}
+.footerright a:hover{
+	opacity:70%;
 }
