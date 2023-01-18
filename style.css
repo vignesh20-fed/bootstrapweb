@@ -6,7 +6,7 @@
 	text-align:center;
 	position:relative;
 }
-.commontitle:after{
+.commontitle h2:after{
 	display:block;
 	position:absolute;
 	left:50%;
@@ -32,7 +32,7 @@
 .header{
 position:fixed;
 z-index:3;
-background-color:#fff;
+background-color:white;
 width:100%;
 }
 .content{
@@ -71,7 +71,7 @@ width:100%;
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-position:center;
-	
+	height:100vh;
 }
 .bannercontent h1{
 	font-size: 48px;
@@ -153,7 +153,7 @@ width:100%;
 
 .aboutitems i{
 	font-size:30px;
-	color:red;
+	color:var(--primary-color);
 	margin-bottom: 10px;
 }
 .aboutitems p{
@@ -163,7 +163,7 @@ width:100%;
 }
 .aboutbtn{
 	background:black;
-	border:2px solid var(--primary-color);
+	border:1px solid var(--primary-color);
 }
 .aboutcontent .aboutbtn:hover{
 	background:var(--primary-color);
@@ -243,13 +243,13 @@ width:100%;
 	font-size:40px;
 }
 .abt-tab .nav-item1 .nav-link:hover{
-	color:red;
+	color:var(--primary-color);
 	border-color:#eee;
 }			
 .abt-tab .nav-item1 .nav-link.active{
      background-color:var(--primary-color);
 	 color:#fff;
-	 border-color:red;
+	 border-color:var(--primary-color);
 }	
 .tab-pane{
 	padding-top:20px;
@@ -259,7 +259,7 @@ width:100%;
 }
 .none i{
    margin-right:10px;
-   color:red;
+   color:var(--primary-color);
 }	
 .none li{
 	font-size:16px;
@@ -285,12 +285,18 @@ width:100%;
 
 .serviceitems{
 	background-color:#2b2b2b;
-	
+	    border-radius: 7px;
 }
 .serviceitems .ser-icon i{
 	color:var(--primary-color);
 	margin:20px 30px;
 	font-size:40px;
+}
+.ser-link{
+	padding:0 20px 0 0;
+}
+.ser-link p{
+	font-size:15px;
 }
 .serviceitems .ser-link a{
 	text-decoration:none;
@@ -368,6 +374,7 @@ width:100%;
 	font-size:20px;	
 	color:rgba(255, 255, 255, 0.7);
 	margin-left:10px;
+	font-weight:400;
 }
 .portfolioicons i:hover{
 	color:white;
@@ -375,16 +382,16 @@ width:100%;
 .portfolioheading{
 	font-family: 'Raleway', sans-serif;
 }
-.portfolioheading h3{
+.portfolioheading h4{
 	font-weight:600;
 	color:#000;
-	font-size:18px;
+	font-size:20px;
 	color:#fff;
 }
-.portfolioheading h6{
+.portfolioheading p{
 	font-weight:300;
 	color:rgba(255, 255, 255, 0.7);
-	font-size:18px;
+	font-size:14px;
 	font-style: italic;
 }
 
@@ -396,9 +403,8 @@ width:100%;
 	padding:50px 0;
 }
 .testimonial{
-	 padding: 30px;
+	padding: 30px;
     margin: 50px 15px;
-    min-height: 200px;
     box-shadow: 0px 2px 12px rgb(0 0 0 / 8%);
     position: relative;
     background: #fff;
@@ -411,20 +417,25 @@ width:100%;
 	font-style: italic;
 	
 }
-.testimonial h3{
-	transform: translate(100px, -90px);
+
+.contentport{
+	padding:20px;
+}
+.contentport h3{
 	font-size: 18px;
     font-weight: bold;
 }
-.testimonial h4{
-    transform: translate(100px, -90px);
+.contentport h4{
 	font-size: 14px;
     color: #999;
     margin: 0;
 }
+.imageport img{
+	border-radius:8px;
+}
 .carousel-indicators [data-bs-target]{
-	width:15px;
-	height:15px;
+	width:10px;
+	height:10px;
 	border-radius:50%;
 	border:none;
 	background-color:var(--primary-color);
@@ -512,12 +523,17 @@ width:100%;
     box-shadow:none;
 }
 .accordion-button:not(.collapsed) {
-    color:black;
+    color:var(--primary-color);
     background-color:#fff;
 }
+
 .accordion-item:hover .accordion-button{
 	background-color:#fff;
 	color:var(--primary-color);
+}
+
+.accordion-item:first-of-type .accordion-button{
+     color:var(--primary-color);	
 }
 
 
@@ -549,7 +565,7 @@ width:100%;
 .card .instag {
     position: absolute;
     left: 0;
-    bottom:100px;
+    bottom:130px;
     right: 0;
 	padding-left:3px;
     transition:0.3s;
@@ -557,6 +573,19 @@ width:100%;
     align-items: center;
     justify-content: center;
 	opacity:0;
+	transform:translateY(0px);
+}
+.card-body h4{
+	 font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #111111;
+}
+.card-body span{
+	
+    font-size: 13px;
+    font-weight: 400;
+    color: #aaaaaa;
 }
 .card .instag a{
     background:var(--primary-color);
@@ -571,6 +600,7 @@ width:100%;
 .card:hover .instag {
 	opacity:1;
 	transition:0.3s;
+	transform:translateY(25px);
 }
 .instag a:hover{
 	background-color:black;	
@@ -581,11 +611,10 @@ width:100%;
 }
 	
 .contactitems{
-
-	padding:30px 0px;
+	padding:37px 0px;
 	box-shadow:0 0 30px #ccc;
 	background-color:#fff;
-
+	
 }
 .contactitems >i{
 	font-size:32px;
@@ -597,7 +626,6 @@ width:100%;
 	text-align:center;
 	line-height:45px;
 	margin-bottom:10px;
-	
 }
 .contactitems h5{
 	color:#222;
@@ -607,6 +635,8 @@ width:100%;
 .contectform{
 	background:#fff;
 	box-shadow:0 0 20px #ccc;
+	margin:0;
+	padding:20px;
 }	
 .form-control:focus {
      color:black; 
@@ -618,7 +648,7 @@ width:100%;
 				
                        /*---------------------- footertop section ---------------*/ 
 .footertop{
-	background-color:var(--secondary-color);
+	background-color:#1b1b1b;
 	padding:50px 0;
 }
 .footercontact{

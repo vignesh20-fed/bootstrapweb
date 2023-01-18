@@ -6,6 +6,9 @@
  .bannercontent h2{
 	 font-size:90px;
  }
+ .abt-tab .nav-item1 .nav-link{
+	 padding:10px 0px;
+ }
   
 }
 @media (max-width:768px){
