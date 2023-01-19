@@ -106,6 +106,7 @@ width:100%;
 }
 .clientcontent{
 	padding:10px 38px;
+	min-height:65px;
 }
 .carousel-indicators{
 	 transform: translateY(80px);
@@ -116,8 +117,6 @@ width:100%;
 	border-radius:50%;
 	border:none;
 	color:var(--primary-color);
-	background:white;
-
 }
            
 		         /*------------------------ about section ----------------*/
@@ -237,6 +236,7 @@ width:100%;
 }
 .abt-tab .nav-item1 .nav-link span{
 	line-height:20px;
+	padding:0px 10px;
 }
 .abt-tab .nav-item1 .nav-link >i{
 	margin-right:10px;
@@ -434,13 +434,13 @@ width:100%;
 	border-radius:8px;
 }
 .carousel-indicators [data-bs-target]{
-	width:10px;
-	height:10px;
-	border-radius:50%;
+	width:15px;
+	height:15px;
 	border:none;
-	background-color:var(--primary-color);
+	background:var(--primary-color);
+	border-radius:50%;
+	
 }
- 
                         /*---------------------- pricing section ---------------*/
 .pricingsection{
 	position:relative;
@@ -565,7 +565,7 @@ width:100%;
 .card .instag {
     position: absolute;
     left: 0;
-    bottom:130px;
+    bottom:120px;
     right: 0;
 	padding-left:3px;
     transition:0.3s;
@@ -580,9 +580,9 @@ width:100%;
     margin-bottom: 5px;
     font-size: 18px;
     color: #111111;
+	font-family: 'Raleway', sans-serif;
 }
 .card-body span{
-	
     font-size: 13px;
     font-weight: 400;
     color: #aaaaaa;
@@ -732,31 +732,37 @@ width:100%;
     border-bottom:2px solid var(--primary-color);
 }
 .form {
-    border:0;
+    border:2px solid #000;
     overflow:hidden;
     position: relative;
+	border-radius:9px;
+	padding:5px 0px 5px 15px;
+	background:#fff;
 }
-.form input{
-	padding: 8px 15px;
-    width:80%;
-    border:0;
+.formcontrol1{
+	width:100%;
+	color:#999;
+	font-size:16px;
+	padding:5px 0px;
+	border:0;
+}
+.sub{
+	position:absolute;
+	top:0;
+	right:0;
 	border-radius:5px;
+	background:var(--primary-color);
+	text-align:center;
+	font-size:16px;
+	color:#fff;
+	height:100%;
+	border:0;
+	padding:0px 22px;
+	border-top-left-radius:0;
+	border-bottom-left-radius:0;
+
 }
-.form button{
-	cursor:pointer;
-	position: absolute;
-    top:0;
-    right:0;
-    padding:8px 30px;
-    border:none;
-    background-color:var(--primary-color);
-    color: #fff;
-    font-size: 16px;
-    font-family: "Open Sans", sans-serif;
-    border-radius:5px;
-	transition: 0.3s;
-}
-.fontnew button:hover{
+.form button:hover{
 	opacity:80%;
 }		
 
