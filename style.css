@@ -64,6 +64,34 @@ width:100%;
     outline: 0;
     box-shadow:none;
 }
+
+ .navbar-sec
+{
+	position:fixed;
+	width:100%;
+	background-color:white;
+	z-index:3;
+}
+		
+.navbar a{
+	font-weight:700;
+}
+.navbar-nav a{
+	font-weight:500;
+}
+.navbar-nav a:hover{
+	color:red !important;
+}
+.navbar-nav .active.active{
+	color:red !important;
+}
+.but:hover{
+	background-color:black;
+}
+.navbar-toggle:focus{
+	box-shadow:none;
+	outline:0;
+}
                  /*------------------ banner section -------------*/
 .bannersection{
 	padding:200px 0;
